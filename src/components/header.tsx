@@ -10,7 +10,7 @@ export default function Headers() {
         <div className="w-full h-4/5 flex flex-row space-x-5">
             <div className="bg-[#131315] basis-8/12 rounded-2xl p-10">
                 <div>
-                    <AvartCard />
+                    <AvartCard  />
                     <NotificationCard message="Hello, I'm Batuta Nkuma Sael" />
                     <p className="text-5xl pt-9 font-extrabold">
                         <TypeAnimation
@@ -38,14 +38,6 @@ export default function Headers() {
                     <SiSupabase size={60} />
                     <SiExpress size={60} />
                     <SiPrisma size={60} />
-                </div>
-                <p className="m-10 font-bold">Mes reseaux</p>
-                <div className="p-10 grid grid-cols-5 space-x-2">
-                    <SiFacebook size={60} />
-                    <SiInstagram size={60} />
-                    <SiTwitter size={60} />
-                    <SiLinkedin size={60} />
-                    <SiGmail size={60} />
                 </div>
             </div>
         </div>

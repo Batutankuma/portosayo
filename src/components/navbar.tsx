@@ -11,7 +11,7 @@ type routerNavbar = {
 
 const routerNavbar: routerNavbar[] = [
     { name: 'home.', href: '/' },
-    { name: 'projet.', href: '/projet' },
+    { name: 'projet.', href: '/projets' },
     { name: 'contact.', href: '/contact' }
 ]
 
